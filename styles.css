@@ -1,0 +1,264 @@
+
+.bg-container{
+    min-height:100vh;
+    width:100vw;
+    background-image:linear-gradient(to right,#F660AB,#FEF250) ;
+    padding-bottom: 115px;
+}
+
+
+body {
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    min-height: 40px;
+   
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  
+  .links{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+
+  }
+
+  
+  .nav-links li {
+    margin: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size:18px;
+}
+  
+
+  
+  i{
+    margin: 7px;
+  }
+  
+  .icons-kit{
+    display:flex;
+    justify-content: flex-end;
+  }
+  .circled{
+    border-radius: 20px;
+    border-color:#253342;
+    border-style: solid;
+    margin: 5px;
+  }
+
+  .bg-container-1{
+    height:100vh;
+    background-size:cover;
+    background-image: url("https://res.cloudinary.com/dyphflopt/image/upload/v1721904951/img1_nc0knn.jpg");
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .description-card{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#E37383; ;
+    opacity:0.8;
+    min-height:25vh;
+    min-width:45vw;
+    padding:20px 15px 20px 15px;
+    overflow: auto;
+
+  }
+
+  .heading{
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size:40px;
+      color:#ffffff;
+      margin-bottom: 0px;
+}
+
+.description{
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:#ffffff;
+}
+
+.order{
+    margin-top:20px;
+    color:#ffffff;
+    font-weight: 800;
+    font-size: 45px;
+    font-family: 'Garamond ';
+    text-align: center;
+    padding-bottom:20px;
+
+}
+
+.items-description-container{
+    display: flex;
+    justify-content: space-between;
+    margin:15px;
+    padding-bottom: 45px;
+}
+
+.item-card{
+    background-color: #ffffff;
+    height:40vh;
+    width:25vw;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.image{
+    height:50%;
+    border-top-right-radius: 50px;
+    width:100%;
+    margin-bottom: 0px;
+}
+
+.order-description{
+    text-align: center;
+}
+
+.item-name{
+    margin-top: 7px;
+    color:#000000;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    margin-bottom: 10px;
+
+}
+
+.item-description{
+    margin-top: 15px;
+    color:#000000;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman';
+
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.order-btn{
+    height:30px;
+    width:140px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto";
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: #D3D3D3;
+    color:#000000;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .links {
+      width: 40%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .links{
+      width:38%;
+    }
+
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px;
+      height: auto;
+    }
+    .nav-links {
+      width: 100%;
+      justify-content: center;
+      position: static;
+      left: auto;
+    }
+    .links {
+      width: auto;
+      justify-content: center;
+    }
+    .nav-links li {
+      margin: 5px;
+    }
+    
+  }
+  
+  @media (max-width: 480px) {
+    .navbar {
+      padding: 12px;
+    }
+    .nav-links {
+      flex-wrap: wrap;
+    }
+    .nav-links a {
+      font-size: 10px;
+    }
+      .item-card{
+        width:20vw;
+      }
+      .item-name{
+        font-size: 12px;
+      }
+      .description-card{
+        margin-left: 25px;
+      }
+  }
+  
+  @media (max-width: 360px) {
+    .nav-links li {
+        margin: 5px;
+    }
+    .description-card{
+        margin-left: 15px;
+      }
+      .item-name{
+        font-size: 10px;
+      }
+  }
